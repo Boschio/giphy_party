@@ -13,16 +13,18 @@ html {
 }
 
 .gifs-area {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
-}
-
-.test {
-    max-width: 50%;
-    max-height: 50%;
+    width: 85vw;
 }
 
 .more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#loadBtn {
+    display: none;
 }
