@@ -1,0 +1,28 @@
+html {
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: ghostwhite;
+    background-color: black;
+}
+
+.top {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.gifs-area {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.test {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.more {
+
+}
